@@ -1,0 +1,104 @@
+﻿.fondo{
+    background-color: #2196F3;
+}
+
+.navbar-form .form-control{
+  
+    height:3em;
+    border-radius:0;
+   
+}
+
+#barra-buscador{
+    width:40em;
+    margin-top:0.5em;
+    border-radius: 5px 0 5px 0;
+}
+
+#boton-buscador{
+    height: 3em;
+    width: 5em;
+    border-radius: 0;
+    margin-top: 0.5em;
+}
+
+.menu{
+    color:white;
+    font-size:13px;
+    font-weight:600;
+    text-transform:uppercase;
+    font-family:'Roboto';
+    padding-top: 0.5em;
+}
+
+.logo{
+    font-size:30px;
+    color:white;
+    font-weight:600;
+    text-transform:uppercase;
+    font-family:'Roboto';
+    margin-top:0.7em;
+  
+}
+
+.sesion{
+    color:white;
+    display:inline-block;
+    margin-top:1.7em;
+}
+
+.destacado{
+    background-color:#F6F6F6;
+    
+}
+
+.destacado-menu{
+    color:#666666;
+    font-size:12px;
+    text-transform:uppercase;
+    font-family:'Roboto';
+    padding-top: 0.5em;
+    margin-left:15px;
+    height:2.5em;
+
+}
+
+
+
+.centrar{
+    margin-left:30%;
+}
+.carousel-indicators{
+    margin-bottom:-15px;
+}
+
+
+.primera-seccion{
+    padding-top:50px;
+}
+
+
+
+.imagenes-carrito{
+    height: 160px;
+    width: 160px;
+}
+
+.precio{
+    font-weight:700;
+    font-size:24px;
+    margin-top:0.5em;
+}
+
+.tercera-seccion{
+    margin-bottom:5px;
+}
+.fondo-seccion{
+    background-color:#ddd;
+}
+
+.pruebas{
+    background-color:white;
+    margin-top: 5px;
+}
+

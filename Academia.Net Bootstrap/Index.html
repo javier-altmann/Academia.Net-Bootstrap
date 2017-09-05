@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Importo hoja de estilo para personalizar mi bootstrap -->
+    <link href="./Scripts/style.css" rel="stylesheet" />
+    
+     <!--  Importo hojas de estilo de bootstrap sin esto no funcionarian los componentes -->
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    
+    <!--Importo la fuente de tipo roboto de google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!--Importo la hoja de estilo de w3schools para usar el diseño de tarjetas  -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+    <header class="fondo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 ">
+                    <h1 class="logo">Softtek Cart</h1>
+                </div>
+                <div class="col-md-7 col-lg-7 ">
+                    <form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="barra-buscador" placeholder="¿Qué estas buscando?">
+                        </div>
+                        <button type="submit" class="btn btn-default btn-toolbar" id="boton-buscador">
+                            <i class="glyphicon glyphicon-search "></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <nav class="fondo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <ul class="nav nav-justified">
+                        <li class="menu"><a href="">Celulares</a></li>
+                        <li class="menu"><a href="">Tecnologia</a></li>
+                        <li class="menu"><a href="">Deportes y tiempo libre</a></li>
+                        <li class="menu"><a href="">Mas categorias</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="destacado">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <ul class="nav nav-tabs centrar">
+                        <li class="destacado-menu"><strong>Destacados » </strong></li>
+                        <li class="destacado-menu">Heladera</li>
+                        <li class="destacado-menu">Notebooks</li>
+                        <li class="destacado-menu">Colchones</li>
+                        <li class="destacado-menu">Bazar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./Imagenes/Aire.png" alt="Chania">
+
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+    <div class="fondo-seccion">
+        <article class="primera-seccion">
+            <div class="row">
+                <div class="container w3-panel w3-card pruebas">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/iphone.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="Imagenes/lavarropas.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/armario.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="segunda-seccion">
+            <div class="row">
+               <div class="container w3-panel w3-card pruebas">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/iphone.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="Imagenes/lavarropas.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/armario.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="tercera-section">
+            <div class="row">
+               <div class="container w3-panel w3-card pruebas">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/iphone.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="Imagenes/lavarropas.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <img class="imagenes-carrito" src="./Imagenes/armario.png" />
+                        <p class="precio text-center"> $2.000 </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </div>
+
+    <footer>
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-4 col-xl-3">
+                        <h6 class="title font-bold"><strong>Company name</strong></h6>
+                        <p>
+                            Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 ">
+                        <h6 class="title font-bold"><strong>Productos</strong></h6>
+                        <p><a href="#!">Heladeras</a></p>
+                        <p><a href="#!">Celulares</a></p>
+                        <p><a href="#!" >Notebooks</a></p>
+                        <p><a href="#!">Colchones</a></p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 ">
+                        <h6 class="title font-bold"><strong>Lo mas buscado</strong></h6>
+                        <p><a href="#!">Celulares</a></p>
+                        <p><a href="#!">Heladeras</a></p>
+                        <p><a href="#!">Aires</a></p>
+                        <p><a href="#!">Relojes</a></p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3">
+                        <h6 class="title font-bold"><strong>Contacto</strong></h6>
+                        <hr style="width: 60px;">
+                        <p>New York, NY 10012, US</p>
+                        <p> info@example.com</p>
+                        <p>+ 01 234 567 88</p>
+                        <p> + 01 234 567 89</p>
+                    </div>
+
+                </div>
+            </div>
+
+                <div class="container-fluid">
+                    © 2017 Copyright: <a href="https://www.carrito.com"><strong> Carrito.com</strong></a>
+                </div>
+       
+
+    </footer>
+
+
+
+
+
+</body>
+</html>
