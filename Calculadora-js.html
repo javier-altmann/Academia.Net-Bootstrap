@@ -1,0 +1,61 @@
+<html>
+<head>
+    <script>
+function sumar () {
+    var a =  document.getElementById("numeroUno").value;
+    var b =  document.getElementById("numeroDos").value;
+    var result = (parseInt(a) + parseInt(b));
+    
+    document.getElementById("resultado").innerHTML = result;
+  
+}
+ 
+function restar () {
+    var a =  document.getElementById("numeroUno").value;
+    var b =  document.getElementById("numeroDos").value;
+    var result = (parseInt(a) - parseInt(b));
+    
+    document.getElementById("resultado").innerHTML = result;  
+}
+        
+function multiplicar () {
+    var a =  document.getElementById("numeroUno").value;
+    var b =  document.getElementById("numeroDos").value;
+    var result = (parseInt(a) * parseInt(b));
+    
+    document.getElementById("resultado").innerHTML = result;  
+  
+}        
+        
+function dividir () {
+    var a =  document.getElementById("numeroUno").value;
+    var b =  document.getElementById("numeroDos").value;
+    var result = (parseInt(a) / parseInt(b));
+    
+    document.getElementById("resultado").innerHTML = result;
+  
+}        
+        
+</script>
+</head>
+
+
+<body>
+    <form action="" method="post">
+        <label>Numero 1:</label>
+        <input type="text" value="" id="numeroUno">
+        
+        <label>Numero 2: </label> 
+        <input type="text" value="" id="numeroDos">
+        
+        <input type="button" value="+" onclick="sumar()">
+        <input type="button" value="-" onclick="restar()">
+        <input type="button" value="x" onclick="multiplicar()">
+        <input type="button" value="/" onclick="dividir()"> 
+    </form>
+    
+    <p id="resultado"></p>    
+    </body>
+</html>
+
+
